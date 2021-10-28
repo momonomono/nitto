@@ -22,14 +22,14 @@ Sub バックアップ()
     ' 名前を付けて保存する
     Save_File = Application.GetSaveAsFilename(Save_Dir, _
          FileFilter:="Excelファイル,*.xls,すべてのファイル,*.*")
-         
-    ActiveWorkbook.SaveAs Filename:=Save_File, _
-                          FileFormat:=xlNormal, _
-                          Password:="", _
-                          CreateBackup:=False
-                          
-                          
-                          
+        
+     ActiveWorkbook.SaveAs Filename:=Save_File, _
+                           FileFormat:=xlOpenXMLWorkbookMacroEnabled, _
+                           ReadOnlyRecommended:=False, _
+                           CreateBackup:=False
+
+                           
+
     
          
 End Sub

@@ -2,8 +2,9 @@ Attribute VB_Name = "Module31"
 Sub –{”“ü—Í()
 Attribute –{”“ü—Í.VB_ProcData.VB_Invoke_Func = "a\n14"
     
-    Range("B5") = Range("B5") / 30
     Range("B6").Select
+    Range("B5") = Range("B5") / 30
+    
     
     
 End Sub
