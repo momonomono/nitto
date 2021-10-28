@@ -7,7 +7,7 @@ Sub バックアップ()
     Dim Save_Dir As String
     
     ' ファイル名を指定
-    Save_Filename = "修正一覧表_バックアップ__～" & Format(Now, "yyyyMMdd") & ".xls"
+    Save_Filename = "先発一覧表_バックアップ__～" & Format(Now, "yyyyMMdd") & ".xls"
     
     ' 保存するファイルを指定
     If Not Len(Sheets("設定").Range("C3").Value) = 0 Then
